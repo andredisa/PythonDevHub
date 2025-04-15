@@ -27,17 +27,20 @@ Install dependencies via pip:
 
 ```bash
 pip install matplotlib requests
+```
 
 ## 🔐 API Key Setup
 Create a file named configFinanza.py in the same directory with the following content:
 
-POLYGON_TOKEN = "your_polygon_api_key_here"
+`POLYGON_TOKEN = "your_polygon_api_key_here"`
 
-⚠️ Do not share or commit this file to public repositories.
+### ⚠️ Do not share or commit this file to public repositories.
 
 ## 🚀 How to Run
 
+```bash
 Execute the script with:
+
 python main.py
 
 You'll be prompted to:
@@ -49,9 +52,13 @@ Enter a year (2000–2024)
 Enter a stock ticker (e.g., AAPL, GOOGL, TSLA)
 
 A line graph will be shown with daily Open and Close prices.
+```
+---
 
-📉 Example Output
+## 📉 Example Output
 You’ll see a plot like:
+
+```yaml
 
 X-axis: timestamps (daily)
 
@@ -62,32 +69,39 @@ Two lines:
 🔵 Open prices
 
 🔴 Close prices
+```
 
-💡 Ideas for Improvement
-🧠 Add automatic leap year handling for February
+---
 
-💾 Save plots to file (.png)
+## 💡 Ideas for Improvement
+- 🧠 Add automatic leap year handling for February
 
-⏱️ Add a time range selection (weekly, monthly, etc.)
+- 💾 Save plots to file (.png)
 
-📈 Add moving averages or volume bars
+- ⏱️ Add a time range selection (weekly, monthly, etc.)
 
-🌐 Build a web interface using Flask or Streamlit
+- 📈 Add moving averages or volume bars
 
-🧠 Educational Purpose
+- 🌐 Build a web interface using Flask or Streamlit
+
+---
+
+## 🧠 Educational Purpose
 This project is great for practicing:
 
-API integration
+- `API integration`
 
-JSON parsing
+- `JSON parsing`
 
-Data visualization
+- `Data visualization`
 
-Python OOP
+- `Python OOP`
 
-Input validation
+- `Input validation`
 
-📎 Disclaimer
+---
+
+## 📎 Disclaimer
 Stock data is for educational purposes only. Do not use this tool for real-time trading decisions.
 
-👨‍💻 Happy coding and data exploring!
+### 👨‍💻 Happy coding and data exploring!
