@@ -1,59 +1,66 @@
-# 📰 News Aggregator con NewsAPI
+# 📰 News Aggregator with NewsAPI
 
-Un'applicazione Python semplice ma potente che ti permette di ottenere le ultime notizie da tutto il mondo usando [NewsAPI.org](https://newsapi.org/). Puoi filtrare le notizie per paese, lingua, argomento, data, dominio, e popolarità.
-
----
-
-## 🚀 Funzionalità
-
-- 🌍 Ottieni le **principali notizie** da un paese specifico
-- 🌐 Ottieni notizie in una **lingua specifica**
-- 🔍 Ricerca articoli per **argomento**
-- 📅 Filtra articoli per **intervallo di date**
-- 🌟 Mostra gli articoli più **popolari**
-- 🗞️ Ottieni articoli di un **dominio specifico**
-- 📖 Mostra il **contenuto completo** del primo articolo trovato
+A simple yet powerful Python application that lets you fetch the latest news from around the world using [NewsAPI.org](https://newsapi.org/). You can filter news by country, language, topic, date, domain, and popularity.
 
 ---
 
-## 🧰 Tecnologie Utilizzate
+## 🚀 Features
 
-- Linguaggio: **Python 3.x**
-- Librerie: [`requests`](https://pypi.org/project/requests/)
-- API: [NewsAPI.org](https://newsapi.org/)
+- 🌍 Get **top headlines** from a specific country  
+- 🌐 Fetch news in a **specific language**  
+- 🔍 Search articles by **keyword or topic**  
+- 📅 Filter articles by **date range**  
+- 🌟 Display the most **popular articles**  
+- 🗞️ Retrieve articles from a **specific domain**  
+- 📖 Show the **full content** of the first article found  
 
 ---
 
-## 🛠️ Requisiti
+## 🧰 Technologies Used
 
-Installa le dipendenze necessarie:
+- Language: **Python 3.x**  
+- Libraries: [`requests`](https://pypi.org/project/requests/)  
+- API: [NewsAPI.org](https://newsapi.org/)  
+
+---
+
+## 🛠️ Requirements
+
+Install the required dependencies:
 
 ```bash
 pip install requests
 ```
 ---
 
-## 🔐 Configurazione API Key
-Per far funzionare il progetto, devi registrarti su https://newsapi.org e ottenere una chiave API gratuita.
+## 🔐 API Key Configuration
+To run this project, sign up at https://newsapi.org and get a free API key.
 
-Sostituisci la chiave all'interno del file news.py:
+Replace the key inside the news.py file:
 
 ````self.key_api = "la_tua_chiave_api" ````
 
-`⚠️ Non pubblicare la tua chiave su repository pubblici.`
+`⚠️ Do not share your API key in public repositories.`
 
 ---
 
-## 📚 Obiettivi Didattici
-- ✅ Apprendere l'utilizzo delle REST API
-- ✅ Esercitarsi con il parsing JSON
-- ✅ Rafforzare la struttura a classi in Python
-- ✅ Imparare la gestione di parametri HTTP dinamici
+## 📚 Learning Objectives
+- ✅ Learn how to use REST APIs
+- ✅ Practice JSON parsing
+- ✅ Strengthen Python class structures
+- ✅ Understand dynamic HTTP parameter handling
 
 ---
 
-## ⚠️ Note
-La versione gratuita di NewsAPI ha un numero limitato di richieste al giorno
+## ⚠️ Notes
+The free version of NewsAPI has a limited number of requests per day.
 
-I contenuti completi degli articoli potrebbero non essere sempre disponibili
+Full content of some articles might not always be available.
+
+---
+
+## 📎 Disclaimer
+Stock data is for educational purposes only. Do not use this tool for real-time trading decisions.
+
+### 👨‍💻 Happy coding and data exploring!
 
