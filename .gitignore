@@ -1,0 +1,8 @@
+# ignora il file configFinanza.py dove c'è il token dell'api
+graficoFinanza/configFinanza.py
+
+# ignora il file configKMP.py dove c'è il token dell'api
+calcKmPrevisione/configKMP.py
+
+# ignora il file configNews.py dove c'è il token dell'api
+newsApi/configNews.py
