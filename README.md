@@ -1,8 +1,8 @@
 # 🐍 Python API Projects Collection
 
-Welcome to my collection of educational **Python projects**! 🎓
+Welcome to my collection of **Python projects**! 🎓
 
-This repository includes three command-line tools that integrate with real-world APIs to fetch data, visualize it, and interact with the user through practical examples. Each project focuses on a specific domain — **news**, **travel**, and **finance** — and is ideal for learning how to work with APIs, parse JSON, and organize Python code.
+> This repository includes three command-line tools that integrate with real-world APIs to fetch data, visualize it, and interact with the user through practical examples. Each project focuses on a specific domain — **news**, **travel**, and **finance** — and is ideal for learning how to work with APIs, parse JSON, and organize Python code.
 
 ---
 
@@ -19,9 +19,9 @@ Fetch and explore the latest headlines from around the world using the [NewsAPI.
 - 🌟 Sort by popularity or domain  
 - 📖 View full article content  
 
-🔧 Technologies: **Python 3**, `requests`, **NewsAPI**
+> 🔧 Technologies: **Python 3**, `requests`, **NewsAPI**
 
-📌 Concepts: `REST API`, `HTTP parameters`, `JSON parsing`, `OOP`, `CLI`
+> 📌 Concepts: `REST API`, `HTTP parameters`, `JSON parsing`, `OOP`, `CLI`
 
 ---
 
@@ -36,9 +36,9 @@ Plan a multi-stop trip and get live weather info at each destination. Calculates
 - 🔁 Ensures at least two locations before building a route  
 - 📈 Displays totals at the end  
 
-🔧 Technologies: **Python 3**, `requests`, `OpenStreetMap`, `OpenRouteService`, `OpenWeatherMap`
+> 🔧 Technologies: **Python 3**, `requests`, `OpenStreetMap`, `OpenRouteService`, `OpenWeatherMap`
 
-📌 Concepts: `Multi-API integration`, `modular Python`, `data aggregation`, `CLI input`
+> 📌 Concepts: `Multi-API integration`, `modular Python`, `data aggregation`, `CLI input`
 
 ---
 
@@ -53,9 +53,9 @@ Visualize a stock’s daily **Open** and **Close** prices for a selected month a
 - 🔒 API key handled via config file  
 - 🖼️ Line plot with `matplotlib`  
 
-🔧 Technologies: **Python 3**, `matplotlib`, `requests`, **Polygon.io**
+> 🔧 Technologies: **Python 3**, `matplotlib`, `requests`, **Polygon.io**
 
-📌 Concepts: `API interaction`, `data visualization`, `OOP`, `config management`
+> 📌 Concepts: `API interaction`, `data visualization`, `OOP`, `config management`
 
 ---
 
