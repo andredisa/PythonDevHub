@@ -37,29 +37,33 @@ Install the required package:
 
 ```bash
 pip install requests
+```
 
-🔐 API Key Setup
+---
+
+## 🔐 API Key Setup
 You will need:
 
-An OpenRouteService API key
+- An OpenRouteService API key
 
-An OpenWeatherMap API key
+- An OpenWeatherMap API key
 
 Replace the placeholder keys in the following files:
 
-OpenRouteLib.py → token_api = "your_openrouteservice_api_key"
+`OpenRouteLib.py → token_api = "your_openrouteservice_api_key"`
 
-weatherLib.py → key = "your_openweathermap_api_key"
+`weatherLib.py → key = "your_openweathermap_api_key"`
 
-⚠️ Do not share or upload these keys to public repositories.
+### ⚠️ Do not share or upload these keys to public repositories.
 
-🚀 How to Use
+---
+
+## 🚀 How to Use
 Run the main script:
 
-bash
-Copia
-Modifica
+```bash
 python main.py
+
 You will be prompted to:
 
 Enter a location name
@@ -70,16 +74,16 @@ Repeat until at least two valid locations are entered
 
 The program then:
 
-Shows the weather for each location
+- Shows the weather for each location
 
-Calculates the distance and travel time between each leg of the trip
+- Calculates the distance and travel time between each leg of the trip
 
-Prints total travel distance and estimated time
+- Prints total travel distance and estimated time
+```
 
-📌 Example Output
-yaml
-Copia
-Modifica
+## 📌 Example Output
+```yaml
+
 inserisci una località: Milan
 continuare? s/n
 s
@@ -100,31 +104,38 @@ distanza tra Milan e Rome = 571.2 km, tempo di percorrenza: 352.4 minuti
 TOTALI:
 distanza totale = 571.2 km
 tempo di percorrenza totale = 352.4 minuti
-💡 Possible Enhancements
-🗺️ Display the route visually on a map
+```
 
-💾 Save trip data to a file
+---
 
-🧭 Add walking or cycling mode
+## 💡 Possible Enhancements
+- 🗺️ Display the route visually on a map
 
-🌐 Add a GUI using Flask or Tkinter
+- 💾 Save trip data to a file
 
-📉 Include weather forecasts and alerts
+- 🧭 Add walking or cycling mode
 
-📚 Educational Objectives
+- 🌐 Add a GUI using Flask or Tkinter
+
+- 📉 Include weather forecasts and alerts
+
+- 📚 Educational Objectives
+  
 This project is great for practicing:
 
-REST API integration
+`REST API integration`
 
-JSON response parsing
+`JSON response parsing`
 
-Modular Python structure with multiple classes
+`Modular Python structure with multiple classes`
 
-Handling real-world data from multiple APIs
+`Handling real-world data from multiple APIs`
 
-CLI interaction and input validation
+`CLI interaction and input validation`
 
-⚠️ Disclaimer
+----
+
+## ⚠️ Disclaimer
 This is an educational project. The data may not be fully up-to-date or suitable for critical decisions like real-time navigation or travel planning.
 
-👨‍💻 Happy coding and enjoy building your own trip planner!
+### 👨‍💻 Happy coding and enjoy building your own trip planner!
