@@ -121,17 +121,17 @@ tempo di percorrenza totale = 352.4 minuti
 
 - 📚 Educational Objectives
   
-This project is great for practicing:
+### This project is great for practicing:
 
-`REST API integration`
+- `REST API integration`
 
-`JSON response parsing`
+- `JSON response parsing`
 
-`Modular Python structure with multiple classes`
+- `Modular Python structure with multiple classes`
 
-`Handling real-world data from multiple APIs`
+- `Handling real-world data from multiple APIs`
 
-`CLI interaction and input validation`
+- `CLI interaction and input validation`
 
 ----
 
